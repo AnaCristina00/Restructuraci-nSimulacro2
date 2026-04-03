@@ -104,8 +104,8 @@ function showQuestion(){
   document.getElementById('qTag').textContent=s.name;
   document.getElementById('qNum').textContent=`Pregunta ${state.current+1} / ${total}`;
   let ctxHtml='';
-  if(q.context){
-    ctxHtml=`<div class="q-context">${q.context}</div>`;
+  if(q.context || q.img){
+    ctxHtml=`<div class="q-context">${q.context||''}${q.img?`<img class="q-img" src="./js/data/imgBanks/matematicas/${q.img}" alt="Imagen de pregunta">`:''}</div>`;
   }
   document.getElementById('qContextBlock').innerHTML=ctxHtml;
   document.getElementById('qText').innerHTML=q.text;
@@ -311,7 +311,10 @@ document.addEventListener('DOMContentLoaded',()=>{
   if(lcCount) lcCount.textContent=QB.lc.questions.length+' preguntas';
   selectSubject('mat');
 });
-if('serviceWorker' in navigator) window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+if('serviceWorker' in navigator){
+  window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+  navigator.serviceWorker.addEventListener('controllerchange',()=>window.location.reload());
+}
 
 const handlers = {
   beginSubject,

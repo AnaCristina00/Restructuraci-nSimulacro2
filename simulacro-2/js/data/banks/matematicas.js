@@ -17,6 +17,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 2,
+    "img": "2-6.webp",
     "context": "Con respecto a la vertical, la torre se ha inclinado 4° como se muestra en la gráfica.",
     "text": "¿Cuánto mide el otro ángulo?",
     "opts": [
@@ -33,6 +34,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 3,
+    "img": "2-6.webp",
     "context": "En la tabla se relaciona la cantidad de personas que ingresó cada día durante una semana, según el tipo de entrada que pagó. Sin reserva: 17 euros. Con reserva: 22,5 euros. (Lunes a Domingo: Sin reserva: 300, 300, 500, 700, 300, 300, 700. Con reserva: 700, 800, 200, 600, 500, 500, 600)",
     "text": "Aproximadamente, ¿qué porcentaje del total de personas que visitaron la torre esa semana entraron sin hacer reserva?",
     "opts": [
@@ -49,6 +51,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 4,
+    "img": "4.webp",
     "context": "El proceso que muestra cómo se obtiene el dinero recaudado en la semana es: 1. Sumar personas sin reserva, 2. Multiplicar por 17, 3. Sumar personas con reserva, 4. Multiplicar por 22,5.",
     "text": "¿Cuál de las siguientes preguntas NO se puede resolver empleando una parte del proceso anterior?",
     "opts": [
@@ -65,6 +68,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 5,
+    "img": "2-6.webp",
     "context": "Con los mismos datos de la tabla anterior (personas sin reserva y con reserva por día, precios de 17€ y 22,5€).",
     "text": "El recaudo total de la semana, registrada en la tabla, fue aproximadamente de",
     "opts": [
@@ -81,6 +85,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 6,
+    "img": "2-6.webp",
     "context": "La mediana de la cantidad de turistas sin reserva que ingresan a la torre es 300; la de los que ingresan con reserva es 600.",
     "text": "Solamente teniendo esto en cuenta, ¿es correcto afirmar que entran el doble de turistas con reserva que sin ella?",
     "opts": [
@@ -97,6 +102,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 7,
+    "img": "7.webp",
     "context": "El dueño de un parque recreativo planea construir tres piscinas y decorar sus bordes con baldosas blancas y azules, tal como se muestra en las figuras. Figura 1: 12 baldosas azules. Figura 2: 18 baldosas azules. Figura 3: 24 baldosas azules.",
     "text": "Según la observación de las figuras 1, 2 y 3, puede afirmarse correctamente que el número de baldosas",
     "opts": [
@@ -129,6 +135,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 9,
+    "img": "9.webp",
     "context": "El costo de la boleta en un cinema depende de la edad de la persona: De 0 a 8 años: $5.000. De 8 a 16 años: $7.000. De 16 a 56 años: $10.000. Más de 56 años: $6.000.",
     "text": "La gráfica que representa esta función es",
     "opts": [
@@ -145,6 +152,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 10,
+    "img": "10.webp",
     "context": "En la figura se muestra la construcción de una cometa triangular, en la que se conoce únicamente la medida del ángulo M = 150°. El ángulo O debe ser menor que 150° para que la cometa vuele. El análisis indica: I. M = 150°, N = 180° - 150°. II. N = 30°. III. La suma de los ángulos de un triángulo debe ser 160°. IV. Si N = 30°, O + P = 160° - 30°. V. O + P = 130°. VI. O debe ser menor que 130°. VII. Si O < 130° entonces O < 150°. VIII. La cometa volará.",
     "text": "Del anterior análisis, el paso en el que se comete un error es el",
     "opts": [
@@ -161,6 +169,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 11,
+    "img": "11.webp",
     "context": "Se realizó una encuesta a 200 clientes de una empresa de telecomunicaciones. Las calificaciones fueron: Excelente 10%, Bueno 35%, Regular 40%, Malo 15%.",
     "text": "La afirmación verdadera acerca de los resultados de la encuesta es:",
     "opts": [
@@ -177,6 +186,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 12,
+    "img": "12.webp",
     "context": "'Quisiéramos dividir el segmento MN en dos partes congruentes'. Para su construcción, un estudiante efectuó: Se construyen dos triángulos equiláteros MNP y MNQ. Luego se traza el segmento PQ, intersecando a MN en R.",
     "text": "De acuerdo con la información anterior, la construcción geométrica que debió hacer el estudiante para realizar la actividad fue",
     "opts": [
@@ -193,6 +203,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 13,
+    "img": "13-14.webp",
     "context": "La familia Ramírez tiene un plan local de 220 minutos. En enero consumió 331 minutos. Se registró un consumo adicional de 111 minutos.",
     "text": "El tiempo adicional consumido por la familia Ramírez en enero fue:",
     "opts": [
@@ -209,6 +220,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 14,
+    "img": "13-14.webp",
     "context": "El señor Ramírez considera que el valor del minuto adicional fue excesivo. Su hija asegura que la diferencia entre el valor del minuto del plan y el del minuto adicional es de $35,42.",
     "text": "¿Cuál de los siguientes datos NO se necesita para hall ar esta diferencia?",
     "opts": [
@@ -225,6 +237,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 15,
+    "img": "15.webp",
     "context": "En un hospital, los niveles de clasificación son: Nivel I: atención inmediata. Nivel II: 5 min a 2 horas. Nivel III: 4 a 6 horas. Isabel llegó y recibió el turno 180. Fue clasificada en Nivel III y al cabo del máximo tiempo (6 horas) es llamada cuando el tablero muestra el número 240.",
     "text": "¿Aproximadamente cuántas personas por hora llegaron a la sala de espera mientras Isabel estuvo allí?",
     "opts": [
@@ -241,6 +254,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 16,
+    "img": "16.webp",
     "context": "Cada uno de los lados del cuadrilátero de la figura se traslada una unidad hacia la izquierda; luego se amplía esta al doble de su tamaño, manteniéndose fijo el vértice inferior. Dos de los vértices del cuadrilátero ampliado son (-5,7) y (-1,1).",
     "text": "¿Cuáles son las coordenadas de los otros dos vértices?",
     "opts": [
@@ -257,6 +271,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 17,
+    "img": "17.webp",
     "context": "Un empresario compra un apartamento de $80.000.000 y acuerda pagarlo en cuotas mensuales de igual valor. Opciones: 50 cuotas de $1.600.000, 40 de $2.000.000, 32 de $2.500.000, 25 de $3.200.000, 20 de $4.000.000, 16 de $5.000.000, 10 de $8.000.000, 8 de $10.000.000.",
     "text": "Respecto a la información de la tabla, es verdadero afirmar que",
     "opts": [
@@ -273,6 +288,7 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 18,
+    "img": "18.webp",
     "context": "Para ambientar musicalmente una reunión, se cuenta con tres CD, cada uno de ellos tiene canciones de salsa (S) y merengue (M).",
     "text": "¿Cuál de los siguientes diagramas representa la situación de seleccionar al azar una canción del CD1, luego una del CD2 y finalmente una del CD3?",
     "opts": [
@@ -289,13 +305,14 @@ export const PREGUNTAS_MATEMATICAS = [
   },
   {
     "id": 19,
+    "img": "19.webp",
     "context": "Para observar los efectos de un medicamento, este se inyecta en un animal y se registra el comportamiento de la temperatura (°C) en función del tiempo (horas). La gráfica muestra una curva con amplitud 2, trasladada 36 unidades hacia arriba, con periodo 3.",
     "text": "¿Cuál de las siguientes expresiones corresponde a la curva que describe la temperatura del animal en función del tiempo?",
     "opts": [
-      "A. F(t) = 2cos(2πt/3) + 36",
-      "B. F(t) = 3cos(2πt/3) + 38",
-      "C. F(t) = 2sen(2πt/3) + 36",
-      "D. F(t) = 3sen(2πt/3) + 38"
+      "A. F(t) = 2cos(2π/3 * t) + 36",
+      "B. F(t) = 3cos(2π/3 * t) + 38",
+      "C. F(t) = 2sen(2π/3 * t) + 36",
+      "D. F(t) = 3sen(2π/3 * t) + 38"
     ],
     "correct": 2,
     "hint": "La amplitud es 2 y está trasladada 36 unidades.",

@@ -58,7 +58,7 @@ body{font-family:'Nunito',sans-serif;background:var(--primary);color:var(--text)
 .q-figure{margin:10px 0;text-align:center}
 .q-figure img{max-width:100%;border-radius:var(--r-sm);border:1px solid var(--border);display:block;margin:0 auto;background:#fff}
 .q-figure figcaption{font-size:11px;color:var(--text-3);margin-top:4px;font-style:italic}
-.q-img{max-width:100%;width:100%;border-radius:var(--r-sm);border:1px solid var(--border);display:block;background:#fff}
+.q-img{max-width:100%;width:100%;max-height:400px;max-width:500px;height:auto;object-fit:contain;border-radius:var(--r-sm);border:1px solid var(--border);display:block;background:#fff;margin:0 auto}
 .opts{display:grid;gap:7px;margin-bottom:14px}
 .opt{display:flex;align-items:center;gap:11px;background:var(--surface);border:2px solid var(--border);border-radius:var(--r);padding:11px 13px;cursor:pointer;transition:all .18s;text-align:left;width:100%;font-family:'Nunito',sans-serif;font-size:14px;font-weight:600;color:var(--text);line-height:1.4}
 .opt:hover:not(:disabled){border-color:#93adc8;background:var(--primary-lt);transform:translateX(2px)}

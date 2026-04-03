@@ -1,4 +1,4 @@
-const CACHE = 'saber11-sim-2020-v4';
+const CACHE = 'saber11-sim-2020-v6';
 const ASSETS = [
   './',
   './index.html',
@@ -30,9 +30,20 @@ self.addEventListener('activate', e => {
   self.clients.claim();
 });
 self.addEventListener('fetch', e => {
-  e.respondWith(
-    caches.match(e.request).then(r =>
-      r || fetch(e.request).catch(() => caches.match('./index.html'))
-    )
-  );
+  const url = e.request.url;
+  if (url.includes('imgBanks')) {
+    e.respondWith(
+      fetch(e.request).then(r => {
+        const clone = r.clone();
+        caches.open(CACHE).then(c => c.put(e.request, clone));
+        return r;
+      }).catch(() => caches.match(e.request))
+    );
+  } else {
+    e.respondWith(
+      caches.match(e.request).then(r =>
+        r || fetch(e.request).catch(() => caches.match('./index.html'))
+      )
+    );
+  }
 });
