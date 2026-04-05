@@ -308,9 +308,11 @@ document.addEventListener('DOMContentLoaded',()=>{
   const matCount=document.getElementById('matCount');
   const lcCount=document.getElementById('lcCount');
   const ingCount=document.getElementById('ingCount');
+  const cnCount=document.getElementById('cnCount');
   if(matCount) matCount.textContent=QB.mat.questions.length+' preguntas';
   if(lcCount) lcCount.textContent=QB.lc.questions.length+' preguntas';
   if(ingCount) ingCount.textContent=QB.ing.questions.length+' preguntas';
+  if(cnCount) cnCount.textContent=QB.cn.questions.length+' preguntas';
   selectSubject('mat');
 });
 if('serviceWorker' in navigator){
