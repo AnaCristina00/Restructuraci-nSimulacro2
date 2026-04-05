@@ -1,4 +1,4 @@
-const CACHE = 'saber11-sim-2020-v6';
+const CACHE = 'saber11-sim-2020-v9';
 const ASSETS = [
   './',
   './index.html',
@@ -10,6 +10,7 @@ const ASSETS = [
   './js/data/subjects.js',
   './js/data/banks/matematicas.js',
   './js/data/banks/lectura-critica.js',
+  './js/data/banks/ingles.js',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',
   './assets/icons/icon-escudo.svg',

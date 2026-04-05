@@ -105,7 +105,7 @@ function showQuestion(){
   document.getElementById('qNum').textContent=`Pregunta ${state.current+1} / ${total}`;
   let ctxHtml='';
   if(q.context || q.img){
-    ctxHtml=`<div class="q-context">${q.context||''}${q.img?`<img class="q-img" src="./js/data/imgBanks/matematicas/${q.img}" alt="Imagen de pregunta">`:''}</div>`;
+    ctxHtml=`<div class="q-context">${q.context||''}${q.img?`<img class="q-img" src="./js/data/imgBanks/${state.subject}/${q.img}" alt="Imagen de pregunta">`:''}</div>`;
   }
   document.getElementById('qContextBlock').innerHTML=ctxHtml;
   document.getElementById('qText').innerHTML=q.text;
@@ -307,8 +307,10 @@ function closeModal(){
 document.addEventListener('DOMContentLoaded',()=>{
   const matCount=document.getElementById('matCount');
   const lcCount=document.getElementById('lcCount');
+  const ingCount=document.getElementById('ingCount');
   if(matCount) matCount.textContent=QB.mat.questions.length+' preguntas';
   if(lcCount) lcCount.textContent=QB.lc.questions.length+' preguntas';
+  if(ingCount) ingCount.textContent=QB.ing.questions.length+' preguntas';
   selectSubject('mat');
 });
 if('serviceWorker' in navigator){

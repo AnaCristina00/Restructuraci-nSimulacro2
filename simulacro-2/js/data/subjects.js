@@ -1,5 +1,6 @@
 import { PREGUNTAS_MATEMATICAS } from './banks/matematicas.js'
 import { PREGUNTAS_LECTURA_CRITICA } from './banks/lectura-critica.js'
+import { PREGUNTAS_INGLES } from './banks/ingles.js'
 
 const MATERIA_MAT = {
   "name": "Matemáticas",
@@ -27,6 +28,19 @@ const MATERIA_LC = {
   ]
 }
 
+const MATERIA_ING = {
+  "name": "Inglés",
+  "icon": "🌎",
+  "tag": "tag-ingles",
+  "color": "#1a3a5c",
+  "desc": "Evalúa competencias de comprensión de textos en inglés, vocabulario y expresión oral y escrita.",
+  "competencias": [
+    "Vocabulario",
+    "Comprensión de lectura",
+    "Expresión"
+  ]
+}
+
 export const QB = {
   mat: {
     ...MATERIA_MAT,
@@ -35,5 +49,9 @@ export const QB = {
   lc: {
     ...MATERIA_LC,
     questions: PREGUNTAS_LECTURA_CRITICA
+  },
+  ing: {
+    ...MATERIA_ING,
+    questions: PREGUNTAS_INGLES
   }
 }

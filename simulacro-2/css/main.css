@@ -28,7 +28,9 @@ body{font-family:'Nunito',sans-serif;background:var(--primary);color:var(--text)
 .subj-count{font-size:11px;color:var(--text-3);margin-top:3px}
 .s-mat.active-subj{border-color:#1a3a5c;background:var(--primary-lt)}
 .s-lc.active-subj{border-color:#1a3a5c;background:var(--primary-lt)}
+.s-ing.active-subj{border-color:#1a3a5c;background:var(--primary-lt)}
 .tag-lc{background:var(--primary-lt);color:var(--primary)}
+.tag-ing{background:var(--primary-lt);color:var(--primary)}
 @media(min-width:768px){.home-hero{padding:20px 8px 24px}.subject-grid{grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:20px}.subj-card{padding:20px 14px}.subj-icon{font-size:32px;margin-bottom:10px}.subj-name{font-size:13px}}
 .btn{display:inline-flex;align-items:center;gap:7px;font-family:'Nunito',sans-serif;font-size:14px;font-weight:700;padding:10px 20px;border-radius:var(--r-sm);border:none;cursor:pointer;transition:all .18s;letter-spacing:.2px;line-height:1}
 .btn-primary{background:var(--primary);color:#fff;box-shadow:0 2px 8px rgba(26,58,92,.25)}
